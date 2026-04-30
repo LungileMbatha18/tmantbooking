@@ -14,10 +14,83 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      bookings: {
+        Row: {
+          created_at: string
+          email: string
+          end_time: string
+          event_date: string
+          event_location: string
+          event_name: string
+          event_type: string
+          full_name: string
+          guest_count: number | null
+          id: string
+          notes: string | null
+          phone: string
+          start_time: string
+          status: string
+        }
+        Insert: {
+          created_at?: string
+          email: string
+          end_time: string
+          event_date: string
+          event_location: string
+          event_name: string
+          event_type: string
+          full_name: string
+          guest_count?: number | null
+          id?: string
+          notes?: string | null
+          phone: string
+          start_time: string
+          status?: string
+        }
+        Update: {
+          created_at?: string
+          email?: string
+          end_time?: string
+          event_date?: string
+          event_location?: string
+          event_name?: string
+          event_type?: string
+          full_name?: string
+          guest_count?: number | null
+          id?: string
+          notes?: string | null
+          phone?: string
+          start_time?: string
+          status?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
-      [_ in never]: never
+      booked_slots: {
+        Row: {
+          end_time: string | null
+          event_date: string | null
+          id: string | null
+          start_time: string | null
+          status: string | null
+        }
+        Insert: {
+          end_time?: string | null
+          event_date?: string | null
+          id?: string | null
+          start_time?: string | null
+          status?: string | null
+        }
+        Update: {
+          end_time?: string | null
+          event_date?: string | null
+          id?: string | null
+          start_time?: string | null
+          status?: string | null
+        }
+        Relationships: []
+      }
     }
     Functions: {
       [_ in never]: never
