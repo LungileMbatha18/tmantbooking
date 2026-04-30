@@ -91,7 +91,7 @@ export function Hero() {
         </div>
         <div>
           <div className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground mb-2">Booking Line</div>
-          <div className="font-display text-xl tabular-nums">+27 61 451 9705</div>
+          <div className="font-display text-xl tabular-nums">+27 68 081 1747</div>
         </div>
         <div className="flex items-end justify-end">
           <div className="flex gap-1.5 h-10 items-end">
