@@ -68,7 +68,7 @@ export function Hero() {
               <div className="absolute inset-0 translate-x-1 translate-y-1 bg-accent -z-10 group-hover:translate-x-0 group-hover:translate-y-0 transition-transform" />
             </a>
             <a
-              href="https://wa.me/27680811747"
+              href="https://wa.me/27614519705"
               target="_blank"
               rel="noreferrer"
               className="px-10 py-5 border border-border text-foreground font-display font-bold uppercase tracking-tight text-base hover:bg-secondary transition-colors"
@@ -91,7 +91,7 @@ export function Hero() {
         </div>
         <div>
           <div className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground mb-2">Booking Line</div>
-          <div className="font-display text-xl tabular-nums">+27 68 081 1747</div>
+          <div className="font-display text-xl tabular-nums">+27 61 451 9705</div>
         </div>
         <div className="flex items-end justify-end">
           <div className="flex gap-1.5 h-10 items-end">
