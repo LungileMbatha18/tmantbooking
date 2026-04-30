@@ -31,10 +31,6 @@ export function Footer() {
                 <Phone className="size-4 text-foreground/40 group-hover:text-primary" />
                 <span className="text-sm">+27 68 081 1747</span>
               </a>
-              <a href="https://wa.me/27614519705" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-foreground/80 hover:text-primary transition-colors group">
-                <Phone className="size-4 text-foreground/40 group-hover:text-primary" />
-                <span className="text-sm">WhatsApp · +27 61 451 9705</span>
-              </a>
             </div>
 
             <h4 className="text-[10px] uppercase tracking-[0.4em] text-accent mt-8 mb-5 font-medium">Social</h4>
