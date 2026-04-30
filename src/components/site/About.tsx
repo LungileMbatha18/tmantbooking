@@ -12,9 +12,9 @@ export function About() {
 
         <div className="md:col-span-7 space-y-6">
           <p className="text-lg md:text-xl leading-relaxed text-foreground/80 font-light">
-            <span className="text-foreground font-medium">TMANT</span> is a Bloemfontein-based DJ bringing smooth House,
-            Private Piano, and Amapiano sounds to clubs, private parties, festivals,
-            lounge events, and corporate spaces.
+            <span className="text-foreground font-medium">TMANT</span> is a South African DJ bringing high-energy Amapiano,
+            Private School, and Sgidongo sounds to clubs, private parties, festivals,
+            lounge events, and corporate spaces — available across all of South Africa.
           </p>
           <p className="text-base md:text-lg leading-relaxed text-foreground/60 font-light">
             Known for creating both chilled and high-energy moments, TMANT brings a

@@ -4,7 +4,7 @@ const events = [
   { icon: Music, name: "Clubs & Nightclubs", desc: "Late-night sets that take over the dancefloor." },
   { icon: PartyPopper, name: "Private Parties", desc: "Birthdays, weddings & celebrations." },
   { icon: Sparkles, name: "Festivals & Events", desc: "Main-stage energy for outdoor crowds." },
-  { icon: Wine, name: "Lounge & Bar", desc: "Smooth Private Piano vibes for upscale venues." },
+  { icon: Wine, name: "Lounge & Bar", desc: "Smooth Private School vibes for upscale venues." },
   { icon: Building2, name: "Corporate Events", desc: "Polished, professional sound for brands." },
   { icon: GraduationCap, name: "Campus / Student Events", desc: "Bring the noise to varsity & student gigs." },
   { icon: MoreHorizontal, name: "Other", desc: "Got something different? Let's talk." },

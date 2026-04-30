@@ -27,14 +27,14 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "TMANT — DJ in Bloemfontein | House, Private Piano & Amapiano Bookings" },
+      { title: "TMANT — DJ South Africa | Amapiano, Private School & Sgidongo Bookings" },
       {
         name: "description",
         content:
-          "Book TMANT, a Bloemfontein-based DJ for clubs, private parties, festivals, lounges and corporate events. House, Private Piano and Amapiano. Professional. Reliable. Unforgettable.",
+          "Book TMANT, a South African DJ available nationwide for clubs, private parties, festivals, lounges and corporate events. Amapiano, Private School and Sgidongo. Professional. Reliable. Unforgettable.",
       },
-      { name: "keywords", content: "DJ in Bloemfontein, Amapiano DJ, House DJ, Private Piano DJ, DJ bookings, event DJ, TMANT" },
-      { property: "og:title", content: "Book TMANT — DJ Bloemfontein | House • Private Piano • Amapiano" },
+      { name: "keywords", content: "DJ South Africa, Amapiano DJ, Private School DJ, Sgidongo DJ, DJ bookings, event DJ, TMANT" },
+      { property: "og:title", content: "Book TMANT — DJ South Africa | Amapiano • Private School • Sgidongo" },
       { property: "og:description", content: "Available for clubs, private parties, festivals & corporate events." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
