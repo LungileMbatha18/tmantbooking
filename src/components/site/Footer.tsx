@@ -10,7 +10,7 @@ export function Footer() {
               TMANT<span className="text-accent">.</span>
             </div>
             <p className="text-foreground/60 max-w-md leading-relaxed mb-6">
-              House · Private Piano · Amapiano. Available across Bloemfontein and South Africa.
+              Amapiano · Private School · Sgidongo. Available across all of South Africa.
             </p>
             <div className="flex flex-wrap gap-4 text-xs uppercase tracking-[0.3em] font-medium text-foreground/70">
               <span>Professional.</span>
@@ -75,7 +75,7 @@ export function Footer() {
             © {new Date().getFullYear()} TMANT. All rights reserved.
           </p>
           <p className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
-            DJ Bloemfontein · Amapiano · House · Private Piano
+            DJ South Africa · Amapiano · Private School · Sgidongo
           </p>
         </div>
       </div>
