@@ -38,7 +38,7 @@ export function Hero() {
           <div className="inline-flex items-center gap-3 px-3 py-1.5 border border-border mb-8 bg-background/50 backdrop-blur-md">
             <span className="size-1.5 rounded-full bg-accent animate-pulse" />
             <span className="text-[10px] uppercase tracking-[0.4em] text-foreground/70 font-medium">
-              Available For Bookings · Bloemfontein
+              Available For Bookings · All Of South Africa
             </span>
           </div>
 
@@ -51,11 +51,11 @@ export function Hero() {
 
           <div className="flex flex-wrap items-center gap-x-10 gap-y-6 mb-12">
             <p className="text-lg md:text-xl font-light tracking-wide text-foreground/70">
-              <span className="font-medium text-foreground">House</span>
-              <span className="text-primary mx-3">/</span>
-              <span className="font-medium text-foreground">Private Piano</span>
-              <span className="text-accent mx-3">/</span>
               <span className="font-medium text-foreground">Amapiano</span>
+              <span className="text-primary mx-3">/</span>
+              <span className="font-medium text-foreground">Private School</span>
+              <span className="text-accent mx-3">/</span>
+              <span className="font-medium text-foreground">Sgidongo</span>
             </p>
           </div>
 
@@ -86,8 +86,8 @@ export function Hero() {
           <div className="font-display text-xl">3 Worlds</div>
         </div>
         <div>
-          <div className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground mb-2">Based In</div>
-          <div className="font-display text-xl">Bloemfontein, ZA</div>
+          <div className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground mb-2">Available</div>
+          <div className="font-display text-xl">All Of South Africa</div>
         </div>
         <div>
           <div className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground mb-2">Booking Line</div>
