@@ -67,33 +67,17 @@ export type Database = {
       }
     }
     Views: {
-      booked_slots: {
-        Row: {
-          end_time: string | null
-          event_date: string | null
-          id: string | null
-          start_time: string | null
-          status: string | null
-        }
-        Insert: {
-          end_time?: string | null
-          event_date?: string | null
-          id?: string | null
-          start_time?: string | null
-          status?: string | null
-        }
-        Update: {
-          end_time?: string | null
-          event_date?: string | null
-          id?: string | null
-          start_time?: string | null
-          status?: string | null
-        }
-        Relationships: []
-      }
+      [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      get_booked_slots: {
+        Args: never
+        Returns: {
+          end_time: string
+          event_date: string
+          start_time: string
+        }[]
+      }
     }
     Enums: {
       [_ in never]: never
