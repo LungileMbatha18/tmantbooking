@@ -27,9 +27,9 @@ export function Footer() {
                 <Mail className="size-4 text-foreground/40 group-hover:text-primary" />
                 <span className="text-sm">kunenethato09@gmail.com</span>
               </a>
-              <a href="tel:+27614519705" className="flex items-center gap-3 text-foreground/80 hover:text-primary transition-colors group">
+              <a href="tel:+27680811747" className="flex items-center gap-3 text-foreground/80 hover:text-primary transition-colors group">
                 <Phone className="size-4 text-foreground/40 group-hover:text-primary" />
-                <span className="text-sm">+27 61 451 9705</span>
+                <span className="text-sm">+27 68 081 1747</span>
               </a>
               <a href="https://wa.me/27614519705" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-foreground/80 hover:text-primary transition-colors group">
                 <Phone className="size-4 text-foreground/40 group-hover:text-primary" />
