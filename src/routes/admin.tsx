@@ -28,6 +28,14 @@ function AdminPage() {
   const [cover, setCover] = useState<File | null>(null);
   const [uploading, setUploading] = useState(false);
 
+  const refresh = async () => {
+    const { data } = await supabase
+      .from("mixtapes")
+      .select("id,title,description,audio_path,cover_path,created_at")
+      .order("created_at", { ascending: false });
+    setItems(data ?? []);
+  };
+
   useEffect(() => {
     (async () => {
       const { data } = await supabase.auth.getUser();
@@ -46,14 +54,6 @@ function AdminPage() {
       await refresh();
     })();
   }, [navigate]);
-
-  const refresh = async () => {
-    const { data } = await supabase
-      .from("mixtapes")
-      .select("id,title,description,audio_path,cover_path,created_at")
-      .order("created_at", { ascending: false });
-    setItems(data ?? []);
-  };
 
   const onUpload = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -90,10 +90,10 @@ function AdminPage() {
       setDescription("");
       setAudio(null);
       setCover(null);
-      (document.getElementById("audio-input") as HTMLInputElement | null)?.value &&
-        ((document.getElementById("audio-input") as HTMLInputElement).value = "");
-      (document.getElementById("cover-input") as HTMLInputElement | null)?.value &&
-        ((document.getElementById("cover-input") as HTMLInputElement).value = "");
+      const a = document.getElementById("audio-input") as HTMLInputElement | null;
+      const c = document.getElementById("cover-input") as HTMLInputElement | null;
+      if (a) a.value = "";
+      if (c) c.value = "";
       await refresh();
     } catch (err: unknown) {
       toast.error(err instanceof Error ? err.message : "Upload failed");
