@@ -7,9 +7,11 @@ export function Navbar() {
   const links = [
     { href: "#about", label: "About" },
     { href: "#events", label: "Events" },
+    { href: "#mixtapes", label: "Mixtapes" },
     { href: "#booking", label: "Book" },
     { href: "#contact", label: "Contact" },
   ];
+
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-background/60 border-b border-border">
